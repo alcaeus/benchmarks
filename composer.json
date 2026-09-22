@@ -1,0 +1,25 @@
+{
+    "name": "alcaeus/benchmark",
+    "description": "Collection of benchmarks",
+    "type": "project",
+    "require": {
+        "phpbench/phpbench": "84.x-dev",
+        "mongodb/mongodb": "v2.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alcaeus\\Benchmark\\": "src/"
+        }
+    },
+    "scripts": {
+        "bench": "bash bin/bench.sh"
+    },
+    "authors": [
+        {
+            "name": "Andreas Braun",
+            "email": "git@alcaeus.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
