@@ -44,6 +44,12 @@ The latest results are checked into [BENCHMARKS.md](BENCHMARKS.md). Regenerate i
 composer report
 ```
 
+(equivalent to running `bin/generate-report.sh` directly.) This starts the MongoDB
+replica set via Docker Compose, runs the full `vendor/bin/phpbench` suite, and
+overwrites `BENCHMARKS.md` with the new results — commit the updated file once you're
+happy with it. Requires Docker Compose; no other setup is needed beyond `composer
+install`.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
