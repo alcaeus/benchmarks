@@ -5,6 +5,7 @@
     "report.generators": {
         "ab-compare": {
             "generator": "component",
+            "filter": "variant_params?.strategy = \"operator\" or variant_params?.strategy = \"pipeline\"",
             "components": [
                 {
                     "component": "table_aggregate",
