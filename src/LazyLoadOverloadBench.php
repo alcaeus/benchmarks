@@ -8,7 +8,7 @@ use stdClass;
 
 #[Bench\BeforeMethods('setUp')]
 #[Bench\Revs(1000)]
-final class CallOverheadBench
+final class LazyLoadOverloadBench
 {
     private ReflectionClass $reflectionClass;
 

@@ -13,7 +13,8 @@
         }
     },
     "scripts": {
-        "bench": "bash bin/bench.sh"
+        "bench": "bash bin/bench.sh",
+        "report": "bash bin/generate-report.sh"
     },
     "authors": [
         {
